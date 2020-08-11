@@ -45,9 +45,9 @@ if len(proc_btl_rows[0]) == len(flat_list):
     print("Columns and Rows align!")
     df = pd.DataFrame(data=proc_btl_rows, columns=flat_list)
     
-    else:
-        print("Something is wrong")
-        print("lenth of columns:", len(flat_list))
-        print(flat_list)
-        print("length of rows is:", len(proc_btl_rows[0]))
-        print(proc_btl_rows[0])
+else:
+    print("Something is wrong")
+    print("lenth of columns:", len(flat_list))
+    print(flat_list)
+    print("length of rows is:", len(proc_btl_rows[0]))
+    print(proc_btl_rows[0])
