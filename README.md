@@ -1,2 +1,4 @@
 # Bottle_Files
-Tools to Read Bottle Files
+Tools to read bottle files from Seabird CTD (.btl) files.
+
+
